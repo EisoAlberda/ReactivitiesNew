@@ -1,3 +1,6 @@
 {
-    "omnisharp.useModernNet": true
+    "omnisharp.useModernNet": true,
+    "[search-result]": {
+        "editor.lineNumbers": "on"
+    }
 }
