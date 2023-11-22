@@ -172,6 +172,7 @@ export default class ProfileStore {
       runInAction(() => (this.loading = false));
     }
   };
+  
   loadFollowings = async (predicate: string) => {
     this.loadingFollowings = true;
     try {
